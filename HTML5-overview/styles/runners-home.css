@@ -1,0 +1,15 @@
+body{
+    font-size: 14px;
+}
+
+header h1 sup{
+    font-size: 0.7em;
+}
+
+section p{
+    font-size: 1.4em;
+}
+
+section p sup{
+   font-size: 0.7em;
+}

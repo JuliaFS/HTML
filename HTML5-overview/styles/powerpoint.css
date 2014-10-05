@@ -1,0 +1,51 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 30px auto;
+    width: 860px;
+    height: 484px;
+    font-family: Calibri, serif;
+    font-size: 20px;
+    background: url(../images/powerpoint.png) no-repeat;
+    background-position: center center;
+}
+
+body section{
+    padding: 1px 25px;
+    position: relative;
+}
+
+body section h1{
+    color: #ffca65;
+}
+
+body section ul{
+    list-style-type: square;
+    color: #ffca65;
+    position: relative;
+    margin-top: -15px;
+
+}
+
+body section ul li{
+    font-size: 1.4em;
+}
+
+body section ul li > span{
+    color: #fff;
+}
+
+body section ul li > ul{
+    background-color: #212121;
+    opacity: 0.8;
+    width: 85%;
+    border: 1px solid white;
+    list-style-type: none;
+    font-size: 0.5em;
+    color: #fff;
+    margin: 10px 20px;
+    padding: 5px;
+}
