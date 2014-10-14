@@ -1,0 +1,38 @@
+html,
+table,
+thead,
+tbody,
+th,
+td,
+a,
+p,
+img{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+table{
+    width: 380px;
+    margin: 0 auto;
+}
+
+th{
+    font-size: 2.3em;
+}
+
+td{
+    padding-top: 30px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+p{
+    padding-left: 10px;
+}

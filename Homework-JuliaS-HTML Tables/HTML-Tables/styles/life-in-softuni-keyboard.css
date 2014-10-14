@@ -1,0 +1,73 @@
+html,
+body,
+table,
+thead,
+th,
+tbody,
+tr,
+td,
+button{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+body > table{
+    border: 1px solid black;
+    width: 360px;
+}
+
+body > table td, th{
+    border: 1px solid black;
+}
+
+th button{
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 442px;
+}
+
+button{
+    background: linear-gradient(to bottom, #f1f1f1 0,#ebebeb 50%,#dcdcdc 50%,#dcdcdc 100%,#d2d2d2 100%);
+    width: 100px;
+    height: 80px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #0000ff;
+    margin: 5px;
+    padding: 0;
+    border: 1px solid gray;
+    outline: none;
+}
+
+
+.two-cells button{
+    width: 215px;
+}
+
+#small-caps{
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+#second-table td button{
+    font-size: 0.8em;
+    padding: 0;
+    height: 30px;
+}
+
+#second-table td{
+    border: none;
+}
+
+tr:nth-of-type(4) td:nth-of-type(1) button{
+    text-align: right;
+    vertical-align: middle;
+    font-size: 2em;
+    width: 330px;
+}

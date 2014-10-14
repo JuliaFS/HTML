@@ -1,0 +1,27 @@
+#first-table {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#first-table td:first-child {
+    padding: 13px 10px;
+}
+
+#second-table {
+    border: 1px solid black;
+    margin: 10px 10px;
+    font-family: Tahoma;
+    font-size: 55px;
+}
+
+#second-table tr:first-child td {
+    text-align: left;
+}
+
+#second-table td {
+    padding: 0 10px;
+}
+
+td {
+    border: 1px solid black;
+}

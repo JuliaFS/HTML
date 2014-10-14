@@ -1,0 +1,47 @@
+html,
+body,
+table,
+thead,
+tfoot,
+tbody,
+th,
+tr,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Tahoma, sans-serif;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+thead tr:first-child th {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+
+thead tr:last-child {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 30px;
+}
+
+tfoot {
+    text-align: right;
+}
+
+tfoot td {
+    padding: 5px 10px 5px 5px;
+}
+
+tbody td {
+    padding: 5px;
+}
+
