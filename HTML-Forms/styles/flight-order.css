@@ -1,0 +1,141 @@
+html,
+body,
+h1,
+div,
+select,
+input,
+option,
+form,
+fieldset,
+label,
+legend{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+#container{
+    background-color: #ffc6d1;
+    width: 340px;
+    height: 280px;
+    padding: 5px 10px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+form{
+    width: 170px;
+    height: 200px;
+    display: table-cell;
+}
+
+#from{
+    float: left;
+}
+
+#to{
+    float: right;
+}
+
+h1{
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+fieldset{
+    border: none;
+}
+
+#from label{
+    font-size: 0.8em;
+    font-style: italic;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+#select-from{
+    width: 164px;
+    margin-bottom: 30px;
+}
+
+#select-to{
+    width: 164px;
+    margin-bottom: 15px;
+}
+
+input{
+    padding: 2px;
+    width: 156px;
+}
+
+.age{
+    display: table-cell;
+}
+
+.age input{
+    width: 44px;
+}
+
+#to label{
+    font-size: 0.8em;
+    font-style: italic;
+    display: block;
+
+}
+
+#to fieldset > label{
+    position: relative;
+    top: -1px;
+}
+
+#to fieldset > label:nth-of-type(2){
+    position: relative;
+    top: -10px;
+}
+
+#directs{
+     width: 10px;
+     height: 10px;
+     vertical-align: middle;
+ }
+
+.time{
+    margin-top: 7px;
+}
+
+.time:nth-of-type(2){
+    margin-top: 2px;
+}
+
+
+.time input{
+    width: 70px;
+    margin-left: 3px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+#to input{
+    margin-bottom: 3px;
+}
+
+.big{
+    width: 162px;
+    padding: 2px;
+}
+
+input[type="search"]{
+    text-align: center;
+    margin-top: 8px;
+    padding: 5px 0;
+}
+
+
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/simple-form.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+             <h1>Enter the system</h1>
+             <p>It is necessary to login in Your account in order to sign in for a course.</p>
+        </header>
+        <form method="post" id="register" name="register" action="#">
+            <fieldset>
+                <legend>are you new? <span>register</span></legend>
+                <input class="text" type="text" title="Can contain only - and letters" placeholder="User name" pattern="[A-z- ]+" required />
+                <input class="text" type="email" name="email" placeholder="Email" pattern="\b[A-z0-9._%+-]+@[A-z0-9.-]+\.[A-z]{2,4}\b" required />
+                <input class="text" type="password" placeholder="Password" required />
+                <input class="text" type="password" placeholder="Confirm Password" required />
+                <input id="reg-button" type="submit" name="register" value="Register"/>
+            </fieldset>
+        </form>
+        <form method="post" name="log-in" id="login" action="#">
+            <fieldset>
+                <legend>already a student? login</legend>
+                <input class="text" type="text" title="Can contain only - and letters" placeholder="User name" pattern="[A-z- ]+" required />
+                <input class="text" type="password" placeholder="Password" required />
+                <div>
+                    <input type="checkbox" id="remember-me" />
+                    <label for="remember-me">Remember me?</label>
+                    <input id="login-button" type="submit" value="Login" />
+                </div>
+                <div>
+                    <a href="#"><span>Forgot Password</span></a>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

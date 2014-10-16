@@ -1,0 +1,116 @@
+body{
+    font-family: tahoma, sans-serif;
+    color: #2e4879;
+    font-size: 16px;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 1.6em;
+    margin-left: 25px;
+    color: #18314c;
+}
+
+#left-div{
+    float: left;
+    width: 645px;
+}
+
+#right-div{
+    float: right;
+    width: 250px;
+    height: 550px;
+    border: 1px solid #eef7ff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#left-div a > div{
+    float: left;
+    width: 182px;
+    height: 230px;
+    border: 1px solid #eef7ff;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    position: relative;
+    padding: 0 8px 0 12px;
+    margin: 0 10px 10px 0;
+}
+
+#left-div a > div h3{
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#left-div a > div img{
+    display: block;
+    margin: 5px auto;
+    position: relative;
+}
+
+#left-div a > div img + img{
+    position: absolute;
+    top: 80px;
+    left: 29px;
+    z-index: 1;
+}
+
+#left-div a > div:hover{
+    border-color: red;
+}
+
+a{
+    text-decoration: none;
+    color: #18314c;
+}
+
+.price{
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    background-color: #18314c;
+    border-top-left-radius: 10px;
+}
+
+.price span{
+    display: block;
+    margin-top: 10px;
+}
+
+#right-div form > div{
+    height: 85px;
+}
+
+#right-div form > div:first-of-type{
+    margin-top: 10px;
+}
+
+.left-text{
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.right-text{
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+
+input[type="range"]{
+    width: 230px;
+}
+
+#right-div form > div span:first-of-type{
+    display: block;
+}

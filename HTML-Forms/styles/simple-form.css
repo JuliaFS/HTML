@@ -1,0 +1,128 @@
+html,
+body,
+div,
+form,
+input,
+fieldset,
+legend,
+label,
+span,
+h1,
+p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+#container{
+    background-color: #f5f5f5;
+    width: 495px;
+    height: 280px;
+    padding: 5px 10px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+form{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+
+h1{
+    color: #0f365b;
+    font-size: 1.6em;
+}
+
+header p{
+    font-size: 0.8em;
+    color: #888;
+    padding: 10px 2px;
+}
+
+fieldset{
+    border: none;
+    margin-left: 10px;
+}
+
+#register{
+    float: left;
+    clear: left;
+}
+
+#register legend{
+    color: #636363;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
+#register legend span{
+    color: #093056;
+}
+
+input{
+    width: 200px;
+    border: 1px solid #dbdbdb;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#reg-button{
+    color: #093056;
+    border: 1px solid #093056;
+    width: 120px;
+    float: right;
+}
+
+#login{
+    background-color: #224568;
+    width: 243px;
+    height: 208px;
+    float: right;
+    clear: right;
+}
+
+#login legend{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+}
+
+#remember-me{
+    width: 25px;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+label{
+    color: #fff;
+    font-size: 0.7em;
+    vertical-align: top;
+}
+
+#login-button{
+    color: #fff;
+    border: 1px solid #ffa400;
+    width: 95px;
+    background: transparent;
+    margin-left: 25px;
+}
+
+a{
+    color: #fff;
+    font-size: 0.7em;
+    float: right;
+    margin-right: 20px;
+}

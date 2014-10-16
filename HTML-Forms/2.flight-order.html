@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link rel="stylesheet" type="text/css" href="styles/flight-order.css">
+</head>
+<body>
+    <div id="container">
+        <h1>flight order</h1>
+        <form method="get" name="flight-info-from" id="from">
+            <fieldset>
+                <label for="from">From</label>
+                <select class="big" name="from" id="select-from">
+                    <option selected="selected">enter a city</option>
+                    <option>Sofia</option>
+                    <option>Plovdiv</option>
+                    <option>Bourgas</option>
+                    <option>Varna</option>
+                    <option>London</option>
+                    <option>Paris</option>
+                    <option>Singapur</option>
+                    <option>Miami</option>
+                </select>
+                <label for="dep-date">Departure Date</label>
+                <input type="date" class="big" name="dep-date" id="dep-date" value="09.06.2014" />
+                <label for="ret-date">Return Date</label>
+                <input type="date" class="big" name="ret-date" id="ret-date" value="13.06.2014"/>
+                <div id="age-div">
+                    <div class="age">
+                        <label for="12">12+</label>
+                        <input type="number" name="12" id="12" value="0" />
+                    </div>
+                    <div class="age">
+                        <label for="2-12">2-12</label>
+                        <input type="text" name="2-12" id="2-12" value="0" />
+                    </div>
+                    <div class="age">
+                        <label for="2">0-2</label>
+                        <input type="text" name="2" id="2" value="0" />
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <form method="get" name="flight-info-to" id="to">
+            <fieldset>
+                <label for="to">To</label>
+                <select class="big" name="to" id="select-to">
+                    <option selected="selected">enter a city</option>
+                    <option>Sofia</option>
+                    <option>Plovdiv</option>
+                    <option>Bourgas</option>
+                    <option>Varna</option>
+                    <option>London</option>
+                    <option>Paris</option>
+                    <option>Singapur</option>
+                    <option>Miami</option>
+                </select>
+                <label for="directs">
+                    <input type="checkbox" name="directs" id="directs" />
+                    Prefer directs
+                </label>
+                <div class="time">
+                    <label for="ret-interval">Time Interval</label>
+                    <input type="time" name="interval" id="dep-interval" value="00:20" />
+                    <input type="time" name="interval" value="05:00" />
+                </div>
+                <div class="time">
+                    <label for="ret-interval">Time Interval</label>
+                    <input type="time"  name="interval" id="ret-interval" value="16:00" />
+                    <input type="time"  name="interval" value="00:20" />
+                </div>
+                <label for="class">Choose class</label>
+                <select id="class">
+                    <option selected="selected">Economy</option>
+                    <option>Business</option>
+                </select>
+                <div>
+                    <input type="search" name="search" id="search" value="Search"/>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
