@@ -1,0 +1,262 @@
+html,
+body,
+div,
+header,
+h1,
+nav,
+ul,
+li,
+form,
+input,
+aside,
+main,
+article,
+h2,
+h5,
+h6,
+p,
+a,
+select,
+option,
+footer{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'PT Sans', Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+header{
+    border-bottom: 1px solid #8c8c8c;
+}
+
+header h1{
+    font-weight: normal;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+nav{
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 10px;
+}
+
+nav ul li a{
+     color: #8c8c8c;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+nav ul li a:hover{
+    color: #000;
+}
+
+#search{
+    display: inline-block;
+    float: right;
+    height: 20px;
+    margin-bottom: 5px;
+
+}
+input{
+    border: 1px solid #8c8c8c;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+input[type=search]{
+    border-right: none;
+    width: 100px;
+    padding: 2px 5px;
+}
+
+input[type=submit]{
+    background-color: #fff;
+    background-image: url('../images/search-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-left: none;
+    border-right: 1px solid #8c8c8c;
+    margin-left: -5px;
+    padding-left: 0;
+    width: 20px;
+    height: 22px;
+}
+
+aside:nth-of-type(1){
+    border-top: 1px solid #8c8c8c;
+    width: 135px;
+    margin-top: 55px;
+    display: inline-block;
+}
+
+aside:nth-of-type(1) ul{
+    list-style-type: none;
+}
+
+aside:nth-of-type(1) ul li{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+aside:nth-of-type(1) ul li a{
+     color: #6b85b8;
+     text-decoration: none;
+ }
+
+main{
+    width: 570px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+main article h2{
+    font-weight: normal;
+    font-size: 1.9em;
+}
+
+main article p:nth-of-type(1){
+    color: #8c8c8c;
+    font-size: 0.8em;
+}
+
+main article p:nth-of-type(1) span{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+main article p:nth-of-type(2){
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+main article p:nth-of-type(3){
+    color: #4a8ac2;
+    margin-botom: 20px;
+    position: relative;
+}
+
+main article p:nth-of-type(3)::after{
+    content: "---->";
+    color: #4a8ac2;
+    letter-spacing: -1px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+main article:nth-of-type(2){
+    margin-top: 20px;
+}
+
+main article:nth-of-type(2) a{
+    color: #4a8ac2;
+    text-decoration: none;
+    padding-left: 17px;
+    display: inline-block;
+    padding-top: 100px;
+    position: relative;
+    pdding-bottom: 20px;
+}
+
+main article:nth-of-type(2) a:before{
+    content: "---->";
+    color: #4a8ac2;
+    letter-spacing: -1px;
+    position: absolute;
+    left: -5px;
+}
+
+aside:nth-of-type(2){
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+aside:nth-of-type(2) h5,
+aside:nth-of-type(2) p{
+    font-weight: normal;
+    color: #8c8c8c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+aside:nth-of-type(2) select{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+body > div{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+body > div p{
+    display: inline-block;
+    color: #8c8c8c;
+    font-style: italic;
+}
+
+footer{
+    background-color: #000;
+    padding: 15px 20px;
+}
+
+footer article{
+    width: 140px;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    margin-right: 20px;
+}
+
+footer article:nth-of-type(2) p:first-of-type,
+footer article:nth-of-type(3) p:first-of-type,
+footer article:nth-of-type(4) p:first-of-type{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+footer article:nth-of-type(1){
+    font-size: 1.4em;
+}
+
+footer article:nth-of-type(1) a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul{
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+footer article:nth-of-type(4) p:nth-of-type(2){
+    margin-top: 5px;
+}

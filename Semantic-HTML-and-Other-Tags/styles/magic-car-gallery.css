@@ -1,0 +1,41 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+#container{
+    width: 530px;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 10px 15px 15px 15px;
+}
+header h1 {
+    color:#F1C006;
+    text-align:center;
+}
+
+iframe {
+    border:1px solid #F1C006;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+ul {
+    display:inline-block;
+    vertical-align:top;
+    font-size:1.6em;
+    font-style:italic;
+    margin: 0;
+    padding: 0 0 0 20px;
+    list-style-type: none;
+}
+
+ul  li {
+    margin-bottom:4px;
+}
+
+ul a {
+    text-decoration:none;
+    color:white;
+}
